@@ -1,0 +1,14 @@
+<!--miniprogram/pages/list/list.wxml-->
+<view>
+  <view wx:for='{{ablimArr}}' wx:key='index'>
+    <view class="album" catchtap="tomusic" data-index="{{index}}">
+      <image class="album_image" src="{{ablimArr[index].image}}"></image>
+      <view class="album_box">
+        <text>{{ablimArr[index].title}}</text>
+        <text>{{ablimArr[index].year}}</text>
+        <text>真好听</text>
+      </view>
+    </view>
+  </view>
+
+</view>

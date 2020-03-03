@@ -1,0 +1,11 @@
+<!--miniprogram/pages/music/music.wxml-->
+<view>
+  <view class="music_photo">
+    <image src="{{musicObj.image}}"></image>
+  </view>
+  <view wx:for="{{musicObj.list}}" wx:key="index">
+    <view class="music_box" catchtap="handlemusic" data-index='{{index}}'>
+      <text>{{musicObj.list[index].music_name}}</text>
+    </view>
+  </view>
+</view>

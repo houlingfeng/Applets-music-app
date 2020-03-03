@@ -1,0 +1,17 @@
+/* miniprogram/pages/music/music.wxss */
+.music_photo{
+  width: 100%;
+}
+.music_photo image{
+  width: 100%;
+}
+.music_box{
+  display: flex;
+  margin-left: 20rpx;
+  height: 128rpx;
+  border-bottom: 1rpx solid #eee;
+  line-height: 128rpx;
+}
+text{
+  font-size: 35rpx;
+}

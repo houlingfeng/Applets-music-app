@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view>
+  <image></image>
+  <text class="hello_lizhi">hello</text>
+  <text>理</text>
+  <text>智</text>
+  <text>生</text>
+  <text>活</text>
+  <button catchtap="handle_list">go</button>
+</view>
